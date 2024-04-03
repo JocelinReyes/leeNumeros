@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+int x, y, z;
+printf("Escribe el primer número: \n");
+scanf("%d",&x);
+printf("Escribe el segundo número: \n");
+scanf("%d",&y);
+printf("Escribe el tercer número: \n");
+scanf("%d",&z);
+if ( x > y && x < z )
+printf("El número mayor es: %d",x);
+else if  ( y > x && y > z )
+printf("El número mayor es: %d", y);
+else if  ( z > x && z > y )
+printf("El número mayor es: %d", z);
+else
+printf("Los tres números son iguales");
+}
