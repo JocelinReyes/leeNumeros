@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 int x;
-int suma=0;
+int suma=0; //iniciamos la variable
 do {
 scanf("%d",&x);
 suma+=x;
