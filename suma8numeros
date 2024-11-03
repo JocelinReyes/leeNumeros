@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 int x;
-int suma=0;
+int suma=0; //declaración de variables 
 for (int i=1; i <= 8; i++){
 scanf("%d", &x);
 suma+=x;
