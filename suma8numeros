@@ -6,5 +6,5 @@ for (int i=1; i <= 8; i++){
 scanf("%d", &x);
 suma+=x;
 }
-printf("La suma es: %d", suma);
+printf("La suma es: %d", suma); // resultado 
 }
